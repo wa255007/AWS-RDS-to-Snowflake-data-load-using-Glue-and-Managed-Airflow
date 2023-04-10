@@ -1,0 +1,17 @@
+{
+    "snow_account"      :  "##enter required snowflake details##",
+    "snow_user"         :  "##enter required snowflake details##",
+    "snow_db"           :  "##enter required snowflake details##",
+    "snow_schema"       :  "##enter required snowflake details##",
+    "warehouse"         :  "##enter required snowflake details##",
+    "snow_role"         :  "##enter required snowflake details##",
+    "snow_password"     :  "##enter required snowflake details##",
+    "bucket"            :  "##enter s3 bucket name e.g bucket123 ##",
+    "bucket_key"        :  "##enter s3 bucket object keys here e.g folder1/folder1 ##",
+    "role"              :  "##enter glue job role name created earlier##",
+    "glue_vpc_connector":  "##enter glue vpc connection detail created earlier##",
+    "rds_url"           :  "##enter required rds details ##    ",
+    "rds_database"      :  "##enter required rds details ##    ",
+    "rds_username"      :  "##enter required rds details ##    ",
+    "rds_password"      :  "##enter required rds details ##    "   
+}
