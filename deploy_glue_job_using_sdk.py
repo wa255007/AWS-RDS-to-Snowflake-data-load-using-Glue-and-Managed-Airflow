@@ -55,5 +55,6 @@ if __name__=="__main__":
         elif str(item) == 'rds_snowflake_config.json':
             config_name, s3_path_key_config = copy_config_to_s3(str(item), config["bucket"], config["bucket_key"])
     response=create_glue_job(glue_job_name, config["role"],config["glue_vpc_connector"], s3_path_key)
-    print ("here is the deployed response", s3_path_key,s3_path_key_config)
+    print ("here is the glue path", s3_path_key)
+    print ("here is the s3 congiruation file  path", s3_path_key_config)
     logging.info(f"Job completed successfully")
