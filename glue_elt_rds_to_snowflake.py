@@ -69,7 +69,6 @@ load()
 df.show()
 df.printSchema()
 print("successfully connected TYRING TO WRITE IT BACK")
-postSQL=f"CALL global_dev.QA_DU_WORKSPACE.SP_UPDATE_METADATA( '{table_name}','dev','dummy_loader', '{job_run_id}')"
 sfOptions = {
   "sfURL" : config['snow_account'],
   "sfUser" : config['snow_user'],
